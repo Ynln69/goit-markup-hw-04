@@ -277,6 +277,32 @@ img {
 .team-text {
   margin-bottom: 16px;
 }
+
+.icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  color: var(--icon-color);
+  background-color: var(--main-light-color);
+}
+.icon-link:hover,
+.icon-link:focus {
+  color: var(--main-light-color);
+  background-color: var(--accent-color);
+}
+.icon-svg {
+  fill: currentColor;
+}
 /* Постійні клієнти */
 .customers-list {
   display: flex;
@@ -298,7 +324,8 @@ img {
   border-color: var(--icon-color);
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -352,7 +379,11 @@ img {
   color: var(--accent-color);
 }
 
-.footer-title {
+.footer-container {
+  display: flex;
+  gap: 70px;
+}
+.join-title {
   margin-bottom: 20px;
   color: var(--main-light-color);
 
@@ -361,6 +392,32 @@ img {
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.join-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.join-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  color: var(--main-light-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.join-link:hover,
+.join-link:focus {
+  background-color: var(--accent-color);
+}
+.join-svg {
+  fill: currentColor;
 }
 /* Стилізація для сторінки портфоліо  */
 /* Основний контент\фільтр секція */
