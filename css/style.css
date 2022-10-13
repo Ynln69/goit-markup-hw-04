@@ -119,6 +119,10 @@ img {
 }
 
 .contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   color: var(--main-font-color);
   font-weight: 500;
   line-height: 1.14;
@@ -128,6 +132,11 @@ img {
 .contact-link:focus {
   color: var(--accent-color);
 }
+
+.contact-icon {
+  fill: currentColor;
+}
+
 /* Стилі для hero секції */
 .hero {
   max-width: 1600px;
@@ -207,6 +216,18 @@ img {
 
 .feature-item {
   width: 270px;
+}
+
+.group-icons {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+
+  background-color: var(--section-team-bg-color);
 }
 
 .feature-title {
@@ -381,8 +402,10 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: center;
   gap: 70px;
 }
+
 .join-title {
   margin-bottom: 20px;
   color: var(--main-light-color);
@@ -468,6 +491,12 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
 }
+.card-item:hover,
+.card-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .card-box {
   padding: 20px 24px;
   border: 1px solid var(--border-color);
