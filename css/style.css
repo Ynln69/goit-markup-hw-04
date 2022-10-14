@@ -61,9 +61,6 @@ img {
 }
 /* Стилі для шапки сторінок*/
 .header {
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
   border: 1px solid var(--border-header-color);
 }
 
@@ -268,9 +265,6 @@ img {
 }
 /* Стилізація секції "Наша команда" */
 .team {
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
   background-color: var(--section-team-bg-color);
 }
 .team-list {
@@ -357,9 +351,6 @@ img {
 }
 /* Стилізація підвалу сторінок */
 .footer {
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -404,7 +395,7 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 70px;
 }
 
